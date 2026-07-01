@@ -138,16 +138,16 @@ What are the different types of DNS records.
 |HINFO				             	|Provides information about the hardware and operating system used by a host.
 |ISDN					              |Stores ISDN addresses associated with a domain name.
 |MB, MG, MINFO, MR	    	|Legacy records related to mailbox information, with specific uses for mapping and informational purposes.
-|NAPTR					|Used for Uniform Resource Identifier (URI) and E.164 Number Mapping (ENUM) applications to define rules for rewriting domain names.
-|NSAP					|Maps a domain name to an NSAP address used in OSI networks.
-|NSEC					|Used in DNSSEC to prove the non-existence of a DNS record by listing the next record in the zone.
-|NSEC3					|An enhanced version of NSEC for DNSSEC that includes hashed domain names to prevent enumeration.
-|NSEC3PARAM				|Stores parameters for NSEC3 records, including hashing algorithms and iterations.
-|RP						|Provides information about the person responsible for a domain, including contact details.
-|RRSIG					|Contains a cryptographic signature used to verify DNSSEC-signed data.
-|RT						|Specifies a route through a specific intermediate host, used for non-IP networks.
-|TLSA					|Links a domain name with a TLS certificate, used in DNS-based Authentication of Named Entities (DANE).
-|X25					|Stores an X.25 network address used in older packet-switched networks.
+|NAPTR			  	           	|Used for Uniform Resource Identifier (URI) and E.164 Number Mapping (ENUM) applications to define rules for rewriting domain names.
+|NSAP		                 |Maps a domain name to an NSAP address used in OSI networks.
+|NSEC					              |Used in DNSSEC to prove the non-existence of a DNS record by listing the next record in the zone.
+|NSEC3					             |An enhanced version of NSEC for DNSSEC that includes hashed domain names to prevent enumeration.
+|NSEC3PARAM				         |Stores parameters for NSEC3 records, including hashing algorithms and iterations.
+|RP						               |Provides information about the person responsible for a domain, including contact details.
+|RRSIG					             |Contains a cryptographic signature used to verify DNSSEC-signed data.
+|RT						               |Specifies a route through a specific intermediate host, used for non-IP networks.
+|TLSA					              |Links a domain name with a TLS certificate, used in DNS-based Authentication of Named Entities (DANE).
+|X25				               	|Stores an X.25 network address used in older packet-switched networks.
 
 
 
