@@ -11,7 +11,7 @@ All serial connections between routers are on the 10.0.0.0 network as follows:
 
 | Network Address | Net Mask | IP Range |
 |-----------------|----------------------|----------------------------------------
-10.10.0.0
+10.10.0.0      | 255.255.255.252 | .0 to .3 
 10.10.1.0
 10.10.2.0
 10.10.4.0
