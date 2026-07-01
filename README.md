@@ -37,6 +37,7 @@ DHCP is a network protocol that dynamically assigns network configuration data t
 devices connected to its network.
 DHCP works by the following four step process:
 
+|---------------|
 |Discover:		|The client sends a DHCP Discover message to find available servers.
 	
 |Offer:			|A DHCP server responds with a DHCP Offer, proposing an 
@@ -46,7 +47,7 @@ DHCP works by the following four step process:
  				|the offered address.
 
 |Acknowledge:	|The server sends a DHCP Acknowledgment (ACK) confirming
-				|the assignment.
+|				|the assignment.
 
 Define DNS and its roles in network communications.
 
@@ -74,6 +75,7 @@ Define TCP and UDP communication and differentiate between them.
 TCP and UDP are two core transport-layer protocols used to send data across networks. they provide different
 approaches to communication depending whether reliability or speed is more important.
 
+|-----------------------|---------------------------|
 |Feature				|TCP						|UDP
 |Reliability			|Connection-orientated		|Connectionless
 |Error Checking			|Reliable					|Unreliable
