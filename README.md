@@ -75,7 +75,7 @@ Define TCP and UDP communication and differentiate between them.
 TCP and UDP are two core transport-layer protocols used to send data across networks. they provide different
 approaches to communication depending whether reliability or speed is more important.
 
-|-----------------------|---------------------------|
+|-----------------------|---------------------------|------------------|
 |Feature				|TCP						|UDP
 |Reliability			|Connection-orientated		|Connectionless
 |Error Checking			|Reliable					|Unreliable
@@ -93,6 +93,7 @@ A port in networking is a logical communication endpoint used by a device to ide
 
 Identify the port and OSI model layer for each protocol used.
 
+|---------------|-------------------|-------------------------|
 |Port no		|Protocol			|OSI Layers	
 |20				|FTP Data			|4 and 7	
 |21				|FTP Control		|4 and 7
@@ -106,6 +107,7 @@ Identify the port and OSI model layer for each protocol used.
 |110			|POP3				|4 and 7			
 |161			|SNMP				|4 and 7		
 |443			|HTTPS,SSL,TLS		|4,6 and 7
+|---------------|-------------------|-------------------------|
 they all use layer 7 so as the user has an onscreen response to the protocls use.
 for port 443 layer 6 6is used for encryption and decryption.
 
