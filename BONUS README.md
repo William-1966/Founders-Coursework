@@ -1,11 +1,13 @@
 BONUS README
 
 I created multiple networks, all networks have different ip addresses with multiple terminals and two servers on alternate networks.
-All connected devices can talk to each other and the network routing protocol is OSPF.
+All connected devices can talk to each other and the network routing protocol is OSPF (Open Shortest Path First).
 
 User Networks 192.168.1.0, 192.168.2.0, 192.168.4.0 and 192.168.4.0.all network terminals with net mask of 255.255.255.0 or /24
+Giving a maximum of 254 devices on each network.
 
 Server networks 192.168.20.0 and 192.168.30.0 both with net mask of 255.255.255.252 or /30
+These are setup as remomte servers and each network at present is set up for two servers on each network.
 
 All serial connections between routers are on the 10.0.0.0 network as follows:
 
