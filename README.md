@@ -76,14 +76,15 @@ TCP and UDP are two core transport-layer protocols used to send data across netw
 approaches to communication depending whether reliability or speed is more important.
 
 | ----------------------- |---------------------------|------------------|
-|Feature				  |TCP						|UDP
-|Reliability		   	  |Connection-orientated		|Connectionless
-|Error Checking			|Reliable					|Unreliable
-|Packet Ordering		|Guaranteed					|Not guaranteed
-|Retransmission			|Yes						|No
-|Speed					|Slower						|Faster
-|Overhead				|Higher						|Lower
-|Typical Uses			|Web, Email, File Transfer	|Streaming, Gaming, DNS
+|Feature				  |TCP						  |UDP
+|Reliability		   	  |Connection-orientated	  |Connectionless
+|Error Checking		   	  |Reliable					  |Unreliable
+|Packet Ordering		  |Guaranteed				  |Not guaranteed
+|Retransmission			  |Yes						  |No
+|Speed					  |Slower					  |Faster
+|Overhead				  |Higher					  |Lower
+|Typical Uses			  |Web, Email, File Transfer  |Streaming, Gaming, DNS
+
 
 Identify the OSI model layer where TCP and UDP operate
 Both TCP and UDP work at layer 4 of the OSI model, this is the transport layer.
