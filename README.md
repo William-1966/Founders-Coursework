@@ -42,10 +42,8 @@ DHCP works by the following four step process:
 |---------------|--------------------------------------------------------------------|
 |Offer:			|A DHCP server responds with a DHCP Offer, proposing an 
 				|available IP address and configuration settings.
-
 |Request:		|The client sends a DHCP Request indicating that it wants to use
  				|the offered address.
-
 |Acknowledge:	|The server sends a DHCP Acknowledgment (ACK) confirming
 |				|the assignment.
 
