@@ -118,26 +118,26 @@ What are the different types of DNS records.
 
 | Record Type | Description |
 |-----------------------|------------------------------------------------------------------------------------------------------------------------------------|
-|A						|Maps a domain to an IPv4 address.
-|AAAA					|Maps a domain to an IPv6 address.
-|CNAME					|Aliases one domain name to another.
-|MX						|Directs email to mail servers.
-|NS						|Specifies the authoritative nameserver for a domain.
-|SOA					|Contains administrative information about the domain, like the primary nameserver and zone update settings.
-|TXT	                |Stores text information, often used for verification.
-|SRV	                |Specifies a service location for certain services, like servers handling VoIP.
-|PTR	                |Maps an IP address to a domain name for reverse DNS lookups.
-|AFSDB					|Specifies the location of Andrew File System (AFS) cells.
-|ATMA					|Maps a domain name to an ATM address used for ATM networks.
-|CAA	                |Specifies which certificate authorities (CAs) are allowed to issue certificates for a domain.
-|CERT					|Stores certificates and certificate-related information, such as public keys.
-|DHCID					|Used in DHCP to associate DNS names with dynamically assigned IP addresses.
-|DNAME					|Provides redirection of a subtree of the DNS namespace to another domain.
-|DNSKEY					|Contains public keys used to verify DNSSEC signatures.
-|DS						|Used in DNSSEC to identify a DNSKEY record in the delegated zone.
-|HINFO					|Provides information about the hardware and operating system used by a host.
-|ISDN					|Stores ISDN addresses associated with a domain name.
-|MB, MG, MINFO, MR		|Legacy records related to mailbox information, with specific uses for mapping and informational purposes.
+|A					                	|Maps a domain to an IPv4 address.
+|AAAA				              	|Maps a domain to an IPv6 address.
+|CNAME				             	|Aliases one domain name to another.
+|MX					               	|Directs email to mail servers.
+|NS					               	|Specifies the authoritative nameserver for a domain.
+|SOA				               	|Contains administrative information about the domain, like the primary nameserver and zone update settings.
+|TXT	                   |Stores text information, often used for verification.
+|SRV	                   |Specifies a service location for certain services, like servers handling VoIP.
+|PTR	                   |Maps an IP address to a domain name for reverse DNS lookups.
+|AFSDB					             |Specifies the location of Andrew File System (AFS) cells.
+|ATMA				              	|Maps a domain name to an ATM address used for ATM networks.
+|CAA	                   |Specifies which certificate authorities (CAs) are allowed to issue certificates for a domain.
+|CERT				       	       |Stores certificates and certificate-related information, such as public keys.
+|DHCID				             	|Used in DHCP to associate DNS names with dynamically assigned IP addresses.
+|DNAME				             	|Provides redirection of a subtree of the DNS namespace to another domain.
+|DNSKEY				            	|Contains public keys used to verify DNSSEC signatures.
+|DS					               	|Used in DNSSEC to identify a DNSKEY record in the delegated zone.
+|HINFO				             	|Provides information about the hardware and operating system used by a host.
+|ISDN					              |Stores ISDN addresses associated with a domain name.
+|MB, MG, MINFO, MR	    	|Legacy records related to mailbox information, with specific uses for mapping and informational purposes.
 |NAPTR					|Used for Uniform Resource Identifier (URI) and E.164 Number Mapping (ENUM) applications to define rules for rewriting domain names.
 |NSAP					|Maps a domain name to an NSAP address used in OSI networks.
 |NSEC					|Used in DNSSEC to prove the non-existence of a DNS record by listing the next record in the zone.
