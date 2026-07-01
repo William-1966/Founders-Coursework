@@ -115,7 +115,7 @@ for port 443 layer 6 6is used for encryption and decryption.
 
 What are the different types of DNS records.
 
-|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------|
+|-----------------------|------------------------------------------------------------------------------------------------------------------------------------|
 |A						|Maps a domain to an IPv4 address.
 |AAAA					|Maps a domain to an IPv6 address.
 |CNAME					|Aliases one domain name to another.
@@ -146,7 +146,7 @@ What are the different types of DNS records.
 |RT						|Specifies a route through a specific intermediate host, used for non-IP networks.
 |TLSA					|Links a domain name with a TLS certificate, used in DNS-based Authentication of Named Entities (DANE).
 |X25					|Stores an X.25 network address used in older packet-switched networks.
-|-----------------------|----------------------------------------------------------------------------------------------------------------------------------------|
+|-----------------------|-------------------------------------------------------------------------------------------------------------------------------------|
 
 
 Ex 4
