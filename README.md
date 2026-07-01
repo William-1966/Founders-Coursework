@@ -116,8 +116,8 @@ for port 443 layer 6 6is used for encryption and decryption.
 What are the different types of DNS records.
 
 |-----------------------|------------------------------------------------------------------------------------------------------------------------------------|
-|A						|Maps a domain to an IPv4 address.
-|AAAA					|Maps a domain to an IPv6 address.
+|A----------------------|Maps a domain to an IPv4 address.
+|AAAA-------------------|Maps a domain to an IPv6 address.
 |CNAME					|Aliases one domain name to another.
 |MX						|Directs email to mail servers.
 |NS						|Specifies the authoritative nameserver for a domain.
