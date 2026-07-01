@@ -73,8 +73,9 @@ Define TCP and UDP communication and differentiate between them.
 TCP and UDP are two core transport-layer protocols used to send data across networks. they provide different
 approaches to communication depending whether reliability or speed is more important.
 
-| ----------------------- |---------------------------|------------------|
+
 |Feature				  |TCP						  |UDP
+| ----------------------- |---------------------------|-----------------------|
 |Reliability		   	  |Connection-orientated	  |Connectionless
 |Error Checking		   	  |Reliable					  |Unreliable
 |Packet Ordering		  |Guaranteed				  |Not guaranteed
