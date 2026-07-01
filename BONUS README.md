@@ -8,7 +8,9 @@ User Networks 192.168.1.0, 192.168.2.0, 192.168.4.0 and 192.168.4.0.all network 
 Server networks 192.168.20.0 and 192.168.30.0 both with net mask of 255.255.255.252 or /30
 
 All serial connections between routers are on the 10.0.0.0 network as follows:
-| Network Address | IP Range |
+
+| Network Address | Net Mask | IP Range |
+|-----------------|----------------------|----------------------------------------
 10.10.0.0
 10.10.1.0
 10.10.2.0
