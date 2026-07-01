@@ -1,4 +1,5 @@
 Answers for DEEP-IN-NET
+
 Ex 1
 1) Havnig a network mask of /24 or 255.255.255.0 you have 256 ip addresses at your disposal.
 the first and last would not be used as 255.255.255.0 would be used as the next 
