@@ -109,7 +109,7 @@ Identify the port and OSI model layer for each protocol used.
 |110			|POP3				|4 and 7			
 |161			|SNMP				|4 and 7		
 |443			|HTTPS,SSL,TLS		|4,6 and 7
-|---------------|-------------------|-------------------------|
+
 
 they all use layer 7 so as the user has an onscreen response to the protocls use.
 for port 443 layer 6 6is used for encryption and decryption.
