@@ -39,15 +39,11 @@ DHCP works by the following four step process:
 
 |---------------|---------------------------------------------------------------------------|
 |Discover:		|The client sends a DHCP Discover message to find available servers.
-|---------------|---------------------------------------------------------------------------|
-|Offer:			|A DHCP server responds with a DHCP Offer, proposing an 
-				|available IP address and configuration settings.
-
-
-|Request:		|The client sends a DHCP Request indicating that it wants to use
- 				|the offered address.
+|---------------|-------------------------------------------------------------------------------------------------------|
+|Offer:			|A DHCP server responds with a DHCP Offer, proposing an available IP address and configuration settings.
+|Request:		|The client sends a DHCP Request indicating that it wants to use the offered address.
 |Acknowledge:	|The server sends a DHCP Acknowledgment (ACK) confirming the assignment.
-|---------------|---------------------------------------------------------------------------|
+|---------------|-------------------------------------------------------------------------------------------------------|
 
 
 Define DNS and its roles in network communications.
