@@ -120,7 +120,7 @@ What are the different types of DNS records.
 
 |-----------------------|------------------------------------------------------------------------------------------------------------------------------------|
 |A						|Maps a domain to an IPv4 address.
-|-----------------------|------------------------------------------------------------------------------------------------------------------------------------|
+
 |AAAA					|Maps a domain to an IPv6 address.
 |CNAME					|Aliases one domain name to another.
 |MX						|Directs email to mail servers.
