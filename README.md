@@ -37,9 +37,9 @@ DHCP is a network protocol that dynamically assigns network configuration data t
 devices connected to its network.
 DHCP works by the following four step process:
 
-|---------------|
+
 |Discover:		|The client sends a DHCP Discover message to find available servers.
-	
+|---------------|--------------------------------------------------------------------|
 |Offer:			|A DHCP server responds with a DHCP Offer, proposing an 
 				|available IP address and configuration settings.
 
