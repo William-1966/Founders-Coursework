@@ -46,6 +46,7 @@ DHCP works by the following four step process:
  				|the offered address.
 |Acknowledge:	|The server sends a DHCP Acknowledgment (ACK) confirming
 |				|the assignment.
+|---------------|--------------------------------------------------------------------|
 
 Define DNS and its roles in network communications.
 
