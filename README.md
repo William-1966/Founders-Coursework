@@ -96,6 +96,7 @@ Identify the port and OSI model layer for each protocol used.
 
 |---------------|-------------------|-------------------------|
 |Port no		|Protocol			|OSI Layers	
+|---------------|-------------------|-------------------------|
 |20				|FTP Data			|4 and 7	
 |21				|FTP Control		|4 and 7
 |22				|SSH				|4 and 7
